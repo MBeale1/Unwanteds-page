@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blue;
+  width: 96%;
+  padding: 2%;
+}
+h1{
+  width: 50%;
+}
+.hlinks a{
+  text-decoration: none;
+  color: black;
+}
+.hlinks a:hover, .hlinks a:focus{
+  color: white;
+}
+
+.aaron{
+  background-color: darkgray
+}
+
+
+.alex{
+  background:linear-gradient(90deg, rgba(255,53,53,1) 0%, rgba(215,232,58,1) 35%, rgba(0,212,255,1) 100%);
+}
