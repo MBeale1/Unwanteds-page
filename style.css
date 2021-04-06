@@ -1,4 +1,6 @@
 body{
+  display: flex;
+  flex-direction: column;
   margin: 0;
 }
 header{
@@ -15,16 +17,18 @@ h1{
 .hlinks a{
   text-decoration: none;
   color: black;
+  padding: 10px;
+  background-color: grey;
 }
 .hlinks a:hover, .hlinks a:focus{
   color: white;
 }
 
 .aaron{
-  background-color: darkgray
+  background-color: darkgray;
 }
 
 
 .alex{
-  background:linear-gradient(90deg, rgba(255,53,53,1) 0%, rgba(215,232,58,1) 35%, rgba(0,212,255,1) 100%);
+  background:linear-gradient(45deg, rgba(255,53,53,1) 0%, rgba(215,232,58,1) 35%, rgba(0,212,255,1) 100%);
 }
